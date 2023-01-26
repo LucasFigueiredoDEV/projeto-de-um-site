@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(idroid.otf);
+}
+
+body{
+    background-color: #5AE183;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+header{
+    background-image: linear-gradient(to top, #10A83E, #10A83E);
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    display: inline-block;
+}
+
+header > p{
+    font-style: italic;
+}
+
+header > nav{
+    text-align: left;
+    font-weight: bold;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+}
+
+div#conteudo{
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+div#conteudo > h1{
+    color: #0a7e2d;
+    font-family: 'idroid', Arial, Helvetica, sans-serif ;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+div#conteudo > h2{
+    color: #10A83E;
+    font-family: 'idroid', Arial, Helvetica, sans-serif ;
+    padding-left: 10px;
+    background-color: #6eda8f60;
+    display: inline-block;
+}
+
+div#conteudo > p{
+    text-align: justify;
+    text-indent: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img.dar-drois{
+    padding-left: 10%;
+}
+
+img.irina{
+    padding-left: 10%;
+}
+
+img.bugdroids{
+    padding-left: 35%;
+}
+
+div#cor-de-fundo-video{
+    background-color: #255C35;
+}
+
+div#video > iframe{
+    padding: 15px 20% 15px 20%;
+}
+
+footer{
+    background-color: #255C35;
+    text-align: center;
+}
+
+footer > p{
+    display: inline-block;
+    color: white;
+}
+
+footer > p > a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+p.ultimo-p{
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+}
+
+div#cor-de-fundo-lista{
+    background-color: white;
+    padding: 8px 15px 8px 15px;
+
+}
+
+div#lista{
+    background-color: #8fe7aae5;
+    border-radius: 5px 5px;
+}
+
+div#lista > h3{
+    font-weight: bold;
+    background-color: #10A83E;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 7px;
+}
+
+div#lista > p{
+    color: black;
+    text-indent: 20px;
+}
+
+a.icone-link{
+    color: #0a7e2d;
+    text-decoration: none;
+    font-weight: bold;
+}
